@@ -13,6 +13,6 @@ Attempted backtest of system similar to [Leverage for the Long Run - A Systemati
 * Install requirements
   * `pip install -r requirements.txt`
 * Download SPY data
-  * `python python download_spy_data.py`
+  * `python python data_download.py`
 
 Pytests should now work!

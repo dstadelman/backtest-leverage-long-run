@@ -27,7 +27,7 @@ class SuperTrendTestStrategy(bt.Strategy):
 
 def test_supertrend():
 
-    data = symbol_data.spy_data_load()
+    data = symbol_data.data_load('SPY')
 
     # check len probably failed
     assert data is not None

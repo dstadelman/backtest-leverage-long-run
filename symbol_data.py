@@ -4,15 +4,14 @@ import pandas as pd
 
 import backtrader.feeds as btfeed
 
-def spy_data_save(data):
+def data_save(symbol, data):
     if not os.path.exists('data/'):
         os.makedirs('data/')
-    data.to_csv('data/SPY.csv')
+    data.to_csv(f'data/{symbol}.csv')
 
+def data_load(symbol):
 
-def spy_data_load():
-
-    df = pd.read_csv('data/SPY.csv')
+    df = pd.read_csv(f'data/{symbol}.csv')
 
     df['Date'] = pd.to_datetime(df['Date'])
 
