@@ -20,7 +20,7 @@ def test_LongTermSwing():
     # Add a strategy
     cerebro.addstrategy(LongTermSwing)
 
-    data = symbol_data.spy_data_load()
+    data = symbol_data.data_load('SPY')
 
     # Add the Data Feed to Cerebro
     cerebro.adddata(data)
