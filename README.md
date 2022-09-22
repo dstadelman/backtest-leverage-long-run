@@ -1,5 +1,6 @@
 # backtest-leverage-long-run
-Attempt to Backtest System Proposed in Leverage for the Long Run
+
+Attempted backtest of system similar to [Leverage for the Long Run - A Systematic Approach to Managing Risk and Magnifying Returns in Stocks](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2741701).
 
 
 ## Setup
@@ -14,3 +15,4 @@ Attempt to Backtest System Proposed in Leverage for the Long Run
 * Download SPY data
   * `python python download_spy_data.py`
 
+Pytests should now work!
