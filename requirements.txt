@@ -1,0 +1,10 @@
+backtrader @ git+https://github.com/dstadelman/backtrader.git@8e433d7b81a79fc4eb5de96707a80d3b977648d1
+joblib
+numpy
+matplotlib
+mplfinance
+pandas
+pytest
+python-dotenv
+requests
+yfinance
