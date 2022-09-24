@@ -2,6 +2,9 @@
 
 Attempted backtest of system similar to [Leverage for the Long Run - A Systematic Approach to Managing Risk and Magnifying Returns in Stocks](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2741701).
 
+## Current State
+
+The backtest code is not complete and does not test the strategy outlined in the paper. A sample backtest is currently in the code that tests a similarish strategy with no leverage.
 
 ## Setup
 
@@ -17,6 +20,6 @@ Attempted backtest of system similar to [Leverage for the Long Run - A Systemati
   * Install requirements
     * `pip install -r requirements.txt`
   * Download SPY data
-    * `python python data_download.py`
+    * `python data_download.py`
 
-Pytests should now work!
+The included pytests should now work. These are usually run in VSCode unit tests UI (flask icon). Make sure you select `pytest` curing VSCode configuration!
