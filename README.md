@@ -12,7 +12,7 @@ Attempted backtest of system similar to [Leverage for the Long Run - A Systemati
 * Do the following in the cloned repository:
   * Create virtual environment
     * `python -m venv .venv`
-  * Activate environment with the command below or select interpreter in VSCode (ctrl+shift+p, Python: Select Interpreter, Choose .venv)
+  * Activate environment with the command below or select interpreter in VSCode (ctrl+shift+p, Python: Select Interpreter, choose .venv)
     * `source .venv/Scripts/activate`
   * Install requirements
     * `pip install -r requirements.txt`
