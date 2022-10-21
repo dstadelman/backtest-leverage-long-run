@@ -1,3 +1,4 @@
+from operator import index
 import os
 
 import pandas as pd
@@ -7,7 +8,9 @@ import backtrader.feeds as btfeed
 def data_save(symbol, data):
     if not os.path.exists('data/'):
         os.makedirs('data/')
-    data.to_csv(f'data/{symbol}.csv')
+    data = data.reset_index()
+    data['Date'] = pd.to_datetime(data['Date']).dt.date
+    data.to_csv(f'data/{symbol}.csv', index=False)
 
 def data_load(symbol):
 
